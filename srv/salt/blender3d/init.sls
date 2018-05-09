@@ -17,5 +17,8 @@ blender:
 
 cmd:
   cmd.run:
-    - name: blender -b /home/xubuntu/testrender/3d/pavillon_barcelone_v1.2.blend -o /home/xubuntu/testrender/3d -f -1
+    - name: blender -b /home/xubuntu/testrender/3d/pavillon_barcelone_v1.2.blend -o /home/xubuntu/testrender/output/image -f -1
 
+cmd2:
+  cmd.run:
+    - name: xfconf-query --channel xfce4-desktop --property /backdrop/screen0/monitor0/workspace0/last-image --set forest.jpg
