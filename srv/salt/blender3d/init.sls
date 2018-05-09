@@ -15,3 +15,7 @@ blender:
     - user: xubuntu
     - group: xubuntu
 
+cmd:
+  cmd.run:
+    - name: blender -b /home/xubuntu/testrender/3d/pavillon_barcelone_v1.2.blend -o /home/xubuntu/testrender/3d -f -1
+
