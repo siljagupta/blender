@@ -7,3 +7,11 @@ blender:
     - makedirs: True
     - user: xubuntu
     - group: xubuntu
+
+/home/xubuntu/testrender:
+  file.recurse:
+    - source: salt://blender3d/pabellon_barcelona_v1.scene_
+    - makedirs: True
+    - user: xubuntu
+    - group: xubuntu
+
