@@ -17,7 +17,7 @@ blender:
 
 cmd:
   cmd.run:
-    - name: blender -b /home/xubuntu/testrender/3d/clocktest/clocksg.blend -o /home/xubuntu/testrender/output/image_ -f -1
+    - name: blender -b /home/xubuntu/testrender/clocktest/clocksg.blend -o /home/xubuntu/testrender/output/image_ -f -1
 
 cmd2:
   cmd.run:
