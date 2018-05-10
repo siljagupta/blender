@@ -21,4 +21,4 @@ cmd:
 
 cmd2:
   cmd.run:
-    - name: xfconf-query --channel xfce4-desktop --property /backdrop/screen0/monitor0/workspace0/last-image --set /home/xubuntu/testrender/output/image_222
+    - name: xfconf-query --channel xfce4-desktop --property /backdrop/screen0/monitor0/workspace0/last-image --set /home/xubuntu/testrender/output/image_0250.png
